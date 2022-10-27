@@ -10,7 +10,7 @@ public class HelloController {
 
   @GetMapping("/hi")
   public String getHi() {
-    return "Hi everyone!!!";
+    return "Hi everyone!!! Welcome to my Spring boot project!";
   }
 
   @GetMapping("/bye")
